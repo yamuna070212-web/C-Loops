@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    for(i = 0; i <= 127; i++)
+    {
+        printf("%3d = %c\n", i, i);
+    }
+
+    return 0;
+}
+Sample Output (First Few Lines)
+  0 =
+  1 =
+  2 =
+...
+ 65 = A
+ 66 = B
+ 67 = C
+...
+ 97 = a
+ 98 = b
+ 99 = c
