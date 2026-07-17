@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+
+    printf("Enter Number: ");
+    scanf("%d", &n);
+
+    printf("Last Digit = %d", n % 10);
+
+    return 0;
+}
+Sample Output
+Enter Number: 98765
+Last Digit = 5
